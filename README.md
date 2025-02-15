@@ -26,15 +26,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot1.jpg)
-![](./Screenshot2.jpg)
-![](./Screenshot3.jpg)
-![](./Screenshot4.jpg)
+![](./images/Screenshot1.jpg)
+![](./images/Screenshot2.jpg)
+![](./images/Screenshot3.jpg)
+![](./images/Screenshot4.jpg)
 
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/html-css-bootstrap-js-jquery-solution-UXf_2Du_L-)
 - Live Site URL: [Live site URL](https://sonnen99.github.io/Challenge-calculator-app-main/)
 
 ## My process
@@ -43,62 +43,55 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- Bootstrap for card design
+- @media breakpoints
+- js and jQuery for functionality
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Refactoring
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <div class="col ">
+        <div class="row number-box">
+          <p class="col number">1</p>
+          <p class="col number">2</p>
+          <p class="col number">3</p>
+        </div>
+        <div class="row slider-box">
+          <p class="col theme">
+            THEME
+          </p>
+          <input class="col" type="range" name="theme" id="theme-slider" min="1" max="3" value="1">
+        </div>
+      </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+[data-theme="dark"] {
+    /* Background */
+    --color-bg: hsl(222, 26%, 31%);
+    --color-tbg: hsl(223, 31%, 20%);
+    --color-sbg: hsl(224, 36%, 15%);
+    /* Keys */
+    --color-bkey: hsl(225, 21%, 49%);
+    --color-bshadow: hsl(224, 28%, 35%);
+    --color-bkey-hover: #A2B3E1;
+    --color-okey: hsl(6, 63%, 50%);
+    --color-oshadow: hsl(6, 70%, 34%);
+    --color-okey-hover: #F96C5B;
+    --color-key: hsl(30, 25%, 89%);
+    --color-shadow: hsl(28, 16%, 65%);
+    --color-key-hover: #FFFFFF;
+    /* Text */
+    --color-txtd: hsl(221, 14%, 31%);
+    --color-txtl: hsl(0, 0%, 100%);
+    --color-txto: hsl(0, 0%, 100%);
+    --color-txtr: hsl(0, 0%, 100%);
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+Calculator programming
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [sonnen99](https://www.frontendmentor.io/profile/sonnen99)
