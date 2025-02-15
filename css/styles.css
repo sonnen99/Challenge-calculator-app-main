@@ -1,0 +1,129 @@
+body {
+    background: var(--color-bg);
+    font-family: "League Spartan", serif;
+    text-align: center;
+    padding: 5%;
+}
+
+h1 {
+    color: var(--color-txtr);
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    min-height: 43.188;
+}
+
+h4 {
+    color: var(--color-txtr);
+    font-weight: 700;
+    margin: 0;
+    text-align: start;
+}
+
+p {
+    color: var(--color-txtr);
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+
+.col {
+    padding: 0;
+}
+
+.body {
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 28rem;
+    align-items: end;
+}
+
+.slider-box {
+    margin: 0;
+    text-align: end;
+    align-items: end;
+}
+
+.theme {
+    margin-right: 20px;
+}
+
+.number-box {
+    margin: 0;
+    justify-content: end;
+}
+
+#theme-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--color-sbg);
+    border-radius: 20px;
+    padding: 3px;
+    max-width: 60px;
+    text-align: left;
+    align-items: start;
+    justify-content: left;
+}
+
+#theme-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--color-okey);
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.number {
+    padding: 0;
+    max-width: 20px;
+    text-align: center;
+
+}
+
+.result-box {
+    align-items: center;
+    background-color: var(--color-sbg);
+    border-radius: 10px;
+    color: var(--color-txtl);
+    padding: 20px 20px 15px;
+    text-align: right;
+    max-width: 28rem;
+    margin: 20px auto;
+    min-height: 78.188;
+}
+
+.keys-box {
+    background-color: var(--color-tbg);
+    border-radius: 10px;
+    padding: 10px 20px;
+    max-width: 28rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+
+    .header {
+        max-width: 20rem;
+    }
+
+    .keys-box {
+        max-width: 20rem;
+        padding: 20px 30px;
+    }
+
+    .result-box {
+        max-width: 20rem;
+    }
+}
+
+.attribution {
+    color: black;
+    margin-top: 10px;
+}

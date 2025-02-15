@@ -1,0 +1,51 @@
+.key {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 5px 0 0;
+}
+
+.l-key {
+    background-color: var(--color-key);
+    box-shadow: 0 3px 0 var(--color-shadow);
+    color: var(--color-txtd);
+}
+
+.b-key {
+    background-color: var(--color-bkey);
+    box-shadow: 0 3px 0 var(--color-bshadow);
+    color: var(--color-txtl);
+    font-size: 26px;
+}
+
+.o-key {
+    background-color: var(--color-okey);
+    box-shadow: 0 3px 0 var(--color-oshadow);
+    color: var(--color-txto);
+}
+
+.l-key:hover {
+    background-color: var(--color-key-hover);
+    color: var(--color-txtd);
+}
+
+.b-key:hover {
+    background-color: var(--color-bkey-hover);
+    color: var(--color-txtl);
+}
+
+.o-key:hover {
+    background-color: var(--color-okey-hover);
+    color: var(--color-txto);
+}
+
+@media (max-width: 500px) {
+    .key {
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
